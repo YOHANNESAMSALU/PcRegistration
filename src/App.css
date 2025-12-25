@@ -1,0 +1,14 @@
+.App {
+  text-align: center;
+  font-family: Arial, sans-serif;
+  animation: fadeIn 0.4s ease;
+}
+
+@keyframes fadeIn {
+  from {
+    opacity: 0.95;
+  }
+  to {
+    opacity: 1;
+  }
+}
