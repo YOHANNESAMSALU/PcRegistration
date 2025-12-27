@@ -47,7 +47,14 @@ function Login({ onLogin }) {
       />
       <br />
       <button className="login-button" onClick={handleLogin}>Login</button>
-    </div></div>
+      <p>
+        Use <br />
+        Username: admin <br />
+        Password: admin123
+      </p>
+    </div>
+    
+    </div>
   );
 }
 
