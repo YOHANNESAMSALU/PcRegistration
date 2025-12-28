@@ -34,8 +34,7 @@ function SearchResult({
         const isEditing = editIndex === originalIndex;
 
         return (
-          <tr key={student.serialNo}> {/* Unique key using student ID */}
-            <td>{displayIndex + 1}</td>
+          <tr key={student.serialNo}><td>{displayIndex + 1}</td>
 
             {/* Name */}
             <td>
@@ -55,8 +54,6 @@ function SearchResult({
                 student.name
               )}
             </td>
-
-            {/* Student ID */}
             <td>
               {isEditing ? (
                 <input

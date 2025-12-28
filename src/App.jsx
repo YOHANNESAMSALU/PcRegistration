@@ -80,7 +80,7 @@ const [lightMode, setLightMode] = useState(() => {
       updatedData[index].status === "IN" ? "OUT" : "IN";
     setStudentData(updatedData);
   };
-
+auto
   // Render login if not logged in
   if (!user) return <Login onLogin={setUser} />;
 
